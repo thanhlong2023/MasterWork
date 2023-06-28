@@ -1,0 +1,33 @@
+/* Light theme */
+
+  #switchButton {
+    background-color: white;
+    border: 1px solid black;
+  }
+  #switchButton .fa-sun {
+    display: none;
+  }
+  #switchButton .fa-moon {
+    display: block;
+  }
+  
+  /* Dark Theme*/
+ 
+  .dark #switchButton {
+    background-color: black;
+    border: 1px solid white;
+  }
+  .dark #switchButton .fa-sun {
+    display: block;
+    color: white;
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: none;
+  }
+  .dark .card {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+  
