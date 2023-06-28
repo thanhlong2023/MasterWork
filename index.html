@@ -13,7 +13,9 @@
         rel="stylesheet">
 
     <!-- Font Awesome  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Css Bootstrap 4.6  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
@@ -22,15 +24,15 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<<<<<<< HEAD
-<body>
-    <!-- Cao Thành Long -->
-    <header class="main-header fixed-top">
+<body id="myBody">
+
+    <!-- Cao Thanh Long  -->
+    <header id="site-header" class="main-header fixed-top">
         <div class="container w3HeaderLogoEd">
             <nav class="navbar navbar-expand-lg stroke px-0 pt-lg-0">
                 <h1>
                     <a class="navbar-brand" href="#">
-                        <i class="fa fa-handshake-o"></i> Masterwork
+                        <i class="fa fa-handshake"></i> Masterwork
                     </a>
                 </h1>
 
@@ -38,21 +40,23 @@
                     data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false"
                     aria-label="Toggle Navigation">
                     <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbar-content">
                     <ul id="primary-menu" class="navbar-nav ml-lg-auto">
-                        <li
+                        <li id="menu-item-20"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-20 nav-item active">
                             <a href="#" class="nav-link active">Home</a>
                         </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26 nav-item"><a
+                        <li id="menu-item-26"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26 nav-item"><a
                                 href="#" class="nav-link">About</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 nav-item"><a
+                        <li id="menu-item-25"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 nav-item"><a
                                 href="#" class="nav-link">Services</a>
                         </li>
-                        <li
+                        <li id="menu-item-21"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-21 nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
                                 id="navbar-dropdown-menu-link-21" aria-haspopup="true" aria-expanded="false">Pages</a>
@@ -62,7 +66,8 @@
                                     class="dropdown-item" id="menu-item-22">404 page</a>
                             </div>
                         </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23 nav-item"><a
+                        <li id="menu-item-23"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23 nav-item"><a
                                 href="#" class="nav-link">Contact</a>
                         </li>
                     </ul>
@@ -70,10 +75,22 @@
 
                     <!--/search-right-->
                     <div class="search-right HeaderSearch mr-lg-3">
-                        <a href="#search" class="search-search" title="search">
-                            <span class="fa fa-search" aria-hidden="true"></span>
-                        </a>
+                        <a href="#search" class="search-search" title="search"><span class="fa fa-search"
+                                aria-hidden="true"></span></a>
+                        <!-- search popup -->
+                        <div id="search" class="pop-overlay d-none">
+                            <div class="popup">
 
+                                <form action="https://wp.w3layouts.com/masterwork/" method="GET"
+                                    class="search-box d-sm-flex">
+                                    <input type="search" placeholder="Enter Keyword" name="s" required="required"
+                                        autofocus="">
+                                    <button type="submit" class="btn">Search</button>
+                                </form>
+                                <a class="close" href="#close">×</a>
+                            </div>
+                        </div>
+                        <!-- /search popup -->
                     </div>
                     <!--//search-right-->
 
@@ -82,25 +99,17 @@
                     <!-- Buy button -->
                     <div class="top-quote mr-lg-3 mt-lg-0 HeaderButton">
                         <a class="btn btn-outline-primary theme-button" href="#demourl">
-                            Schedule a Demo
-                        </a>
+                            Schedule a Demo</a>
                     </div>
                     <!-- Buy button -->
                 </div>
 
                 <!-- toggle switch for light and dark theme -->
                 <div class="mobile-position DarkandLight">
-                    <nav class="navigation">
-                        <div class="theme-switch-wrapper">
-                            <label class="theme-switch" for="checkbox">
-                                <input type="checkbox" id="checkbox">
-                                <div class="mode-container">
-                                    <i class="gg-sun"></i>
-                                    <i class="gg-moon"></i>
-                                </div>
-                            </label>
-                        </div>
-                    </nav>
+                    <button class="dark-theme" id="switchButton" title="Click to switch theme">
+                        <i class="far fa-moon" style="font-size: 20px;"></i>
+                        <i class="far fa-sun"></i>
+                    </button>
                 </div>
                 <!-- //toggle switch for light and dark theme -->
 
@@ -108,12 +117,6 @@
         </div>
 
     </header>
-
-=======
-<body id="myBody">
->>>>>>> CaoThanhLong
-
-    <i class="fa fa-handshake"></i>
     <!-- test dark  -->
 
 
@@ -121,8 +124,8 @@
     <div class="container py-5">
         <div style="width: 18rem;" class="mx-auto py-3">
             <button class="btn" id="switchButton" title="Click to switch theme">
-                <i class="far fa-moon"></i>
-                <i class="far fa-sun"></i>
+                <i class="fa fa-moon"></i>
+                <i class="fa fa-sun"></i>
             </button>
 
         </div>
