@@ -13,8 +13,8 @@
         rel="stylesheet">
 
     <!-- Font Awesome  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Css Bootstrap 4.6  -->
@@ -26,7 +26,97 @@
 
 <body id="myBody">
 
-    <i class="fa fa-handshake"></i>
+    <!-- Cao Thanh Long  -->
+    <header id="site-header" class="main-header fixed-top">
+        <div class="container w3HeaderLogoEd">
+            <nav class="navbar navbar-expand-lg stroke px-0 pt-lg-0">
+                <h1>
+                    <a class="navbar-brand" href="#">
+                        <i class="fa fa-handshake"></i> Masterwork
+                    </a>
+                </h1>
+
+                <button class="navbar-toggler collapsed bg-gradient" type="button" data-toggle="collapse"
+                    data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false"
+                    aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <ul id="primary-menu" class="navbar-nav ml-lg-auto">
+                        <li id="menu-item-20"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-20 nav-item active">
+                            <a href="#" class="nav-link active">Home</a>
+                        </li>
+                        <li id="menu-item-26"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26 nav-item"><a
+                                href="#" class="nav-link">About</a></li>
+                        <li id="menu-item-25"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 nav-item"><a
+                                href="#" class="nav-link">Services</a>
+                        </li>
+                        <li id="menu-item-21"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-21 nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                id="navbar-dropdown-menu-link-21" aria-haspopup="true" aria-expanded="false">Pages</a>
+                            <div class="sub-menu dropdown-menu" aria-labelledby="navbar-dropdown-menu-link-21">
+                                <a href="#" class="dropdown-item" id="menu-item-27">Blog Posts</a><a href="#"
+                                    class="dropdown-item" id="menu-item-24">Landing page</a><a href="#"
+                                    class="dropdown-item" id="menu-item-22">404 page</a>
+                            </div>
+                        </li>
+                        <li id="menu-item-23"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23 nav-item"><a
+                                href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+
+                    <!--/search-right-->
+                    <div class="search-right HeaderSearch mr-lg-3">
+                        <a href="#search" class="search-search" title="search"><span class="fa fa-search"
+                                aria-hidden="true"></span></a>
+                        <!-- search popup -->
+                        <div id="search" class="pop-overlay d-none">
+                            <div class="popup">
+
+                                <form action="https://wp.w3layouts.com/masterwork/" method="GET"
+                                    class="search-box d-sm-flex">
+                                    <input type="search" placeholder="Enter Keyword" name="s" required="required"
+                                        autofocus="">
+                                    <button type="submit" class="btn">Search</button>
+                                </form>
+                                <a class="close" href="#close">×</a>
+                            </div>
+                        </div>
+                        <!-- /search popup -->
+                    </div>
+                    <!--//search-right-->
+
+
+
+                    <!-- Buy button -->
+                    <div class="top-quote mr-lg-3 mt-lg-0 HeaderButton">
+                        <a class="btn btn-outline-primary theme-button" href="#demourl">
+                            Schedule a Demo</a>
+                    </div>
+                    <!-- Buy button -->
+                </div>
+
+                <!-- toggle switch for light and dark theme -->
+                <div class="mobile-position DarkandLight">
+                    <button class="dark-theme" id="switchButton" title="Click to switch theme">
+                        <i class="far fa-moon" style="font-size: 20px;"></i>
+                        <i class="far fa-sun"></i>
+                    </button>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+
+            </nav>
+        </div>
+
+    </header>
     <!-- test dark  -->
 
 
@@ -34,8 +124,8 @@
     <div class="container py-5">
         <div style="width: 18rem;" class="mx-auto py-3">
             <button class="btn" id="switchButton" title="Click to switch theme">
-                <i class="far fa-moon"></i>
-                <i class="far fa-sun"></i>
+                <i class="fa fa-moon"></i>
+                <i class="fa fa-sun"></i>
             </button>
 
         </div>
