@@ -307,6 +307,11 @@ a.search-search span.fa:hover {
   opacity: 1;
 }
 
+.dark a.search-search span.fa:hover {
+  color: #eee;
+  opacity: 1;
+}
+
 .dark-theme {
   border: none;
 }
@@ -314,6 +319,7 @@ a.search-search span.fa:hover {
 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
   color: var(--primary);
 }
+
 /* reponsive header  */
 @media only screen and (max-width: 1440px) {
   .navbar-expand-lg .navbar-nav .nav-item {
