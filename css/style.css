@@ -10,4 +10,86 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-/* tạo title chung  */
+/* color chung không bắt buộc  */
+:root {
+    --primary: #dc4f72;
+    --secondary: #0d5fa8;
+    --title-color: #2C3038;
+    --text-color: #5a5a5a;
+    --light-bg-color: #F7F9FC;
+    --bg-color: #fff;
+    --border-color: #eee;
+    --bg-color-light: #fff;
+    --bg-lightgrey: #f7f7f7;
+    --border-color-light: #f8f9fa;
+    --card-curve: 6px;
+    --iframe-filter: grayscale(0%);
+    --card-box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
+    --card-hover-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+    --transformY: translateY(-0.5rem);
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #dc4f72;
+    --secondary: #0d5fa8;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+
+}
+
+/* test  */
+
+/* Light theme */
+#myBody {
+    background-color: white;
+  }
+  #switchButton {
+    background-color: white;
+    border: 1px solid black;
+  }
+  #switchButton .fa-sun {
+    display: none;
+  }
+  #switchButton .fa-moon {
+    display: block;
+  }
+  
+  /* Dark Theme*/
+  .dark#myBody {
+    background-color: black;
+  }
+  .dark #switchButton {
+    background-color: black;
+    border: 1px solid white;
+  }
+  .dark #switchButton .fa-sun {
+    display: block;
+    color: white;
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: none;
+  }
+  .dark .card {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+  
