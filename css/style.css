@@ -178,7 +178,7 @@ li {
 }
 
 .dark .navbar-expand-lg .navbar-nav .nav-link {
-  color: #b7b7b7;
+  color: #eee;
   opacity: 0.95;
 }
 
@@ -311,7 +311,9 @@ a.search-search span.fa:hover {
   border: none;
 }
 
-
+.navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
+  color: var(--primary);
+}
 /* reponsive header  */
 @media only screen and (max-width: 1440px) {
   .navbar-expand-lg .navbar-nav .nav-item {
