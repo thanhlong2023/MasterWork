@@ -507,11 +507,7 @@ a.search-search span.fa:hover {
   display: none;
 }
 
-.dark .card {
-  background-color: black;
-  color: white;
-  border: 1px solid white;
-}
+
 
 /* Why choose us  */
 .header-section {
@@ -528,12 +524,14 @@ a.search-search span.fa:hover {
   margin-bottom: 5px;
 }
 
+
 .header-section h3 {
   color: var(--title-color);
   font-size: 46px;
   line-height: 1;
   font-weight: 700;
 }
+
 
 .dark .header-section h3 {
   color: #eee;
@@ -637,4 +635,331 @@ a:hover {
   font-size: 16px;
   color: #eee;
   line-height: 24.5px;
+}
+
+/* featured cases  */
+.nav.nav-tabs.resp-tabs-list {
+  justify-content: center;
+}
+
+.w3l-products .products-content {
+  margin: 20px 0;
+}
+
+.nav-tabs .nav-link {
+  width: 100%;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+
+
+  border-bottom: none;
+  margin-bottom: -1px;
+  border-bottom: 3px var(--primary) solid !important;
+  color: var(--primary);
+  border-color: transparent;
+  background-color: #fff;
+}
+
+.dark .nav-tabs .nav-item.show .nav-link,
+.dark .nav-tabs .nav-link.active {
+  background-color: #131617;
+}
+
+
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: transparent;
+}
+
+.resp-tabs-list li {
+
+
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  width: 33.333%;
+  text-align: center;
+  background: var(--bg-color);
+
+}
+
+
+.dark .resp-tabs-list li {
+  background-color: #131617;
+}
+
+.resp-tabs-list li button {
+  color: #2c3038;
+}
+
+.dark .resp-tabs-list li button {
+  color: #eee;
+}
+
+.resp-tab-content {
+  padding: 15px;
+}
+
+img.img-curve {
+  border-radius: var(--card-curve);
+  transition: 0.3s ease-in-out;
+}
+
+img.img-curve:hover {
+  transform: var(--transformY);
+}
+
+.w3l-products .products-content h3 {
+  color: var(--title-color);
+  margin-bottom: 16px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.dark .w3l-products .products-content h3 {
+  color: #eee;
+}
+
+.w3l-products .products-content p {
+  color: var(--text-color);
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 24.5px;
+}
+
+.dark .w3l-products .products-content p {
+  color: #b7b7b7;
+}
+
+/* -------------------------mobile--------------------------------------------mobile  */
+
+@media (min-width: 768px) {
+  .laptop {
+    display: block;
+  }
+
+  .dienthoai {
+    display: none;
+  }
+
+}
+
+@media (max-width:767.98px) {
+  .laptop {
+    display: none;
+  }
+
+  .dienthoai {
+    display: block;
+  }
+
+  .accordion {
+    border: 1px solid #c1c1c1;
+  }
+
+  .dark .accordion {
+    border-color: rgba(193, 193, 193, 1);
+  }
+
+  .accordion .card-header {
+    background-color: #fff;
+    padding: 0;
+  }
+
+  .dark .accordion .card-header {
+    background-color: #131617;
+
+  }
+
+  .accordion .card-header h2 {
+    border: 1px solid #c1c1c1;
+    border-top: 0px solid #c1c1c1;
+    margin: 0px;
+
+  }
+
+
+  .accordion .card-header span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #16181b;
+  }
+
+  .dark .accordion .card-header span,
+  .dark .accordion .card-header button i {
+    color: #eee;
+  }
+
+  .accordion .card-header h2 button {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card {
+    border: transparent;
+  }
+
+  .card-body {
+    background-color: #ffffff;
+  }
+
+  .dark .card-body {
+    background-color: #131617;
+  }
+
+  .btn-link:hover {
+
+    text-decoration: none;
+  }
+
+  .btn.focus,
+  .btn:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+}
+
+/* OUR CLIENTS TESTIMONIALS
+What People Say */
+.testimonials {
+  background: linear-gradient(to right, var(--bg-color), rgba(255, 255, 255, 0.77)),
+    url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/b2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.dark .testimonials {
+  background: linear-gradient(to right, #131617, rgba(255, 255, 255, 0.77)), url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/b2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.w3l-testimonials .slider-info {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 50px;
+  background-color: var(--bg-color);
+  border-radius: var(--card-curve);
+}
+
+.dark .w3l-testimonials .slider-info {
+  background-color: #131617;
+}
+
+.w3l-testimonials .img-circle {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+  background: #f3f6f9;
+  border-radius: 50%;
+  border: 3px solid var(--primary);
+}
+
+.w3l-testimonials .message {
+  position: relative;
+}
+
+.w3l-testimonials .message span {
+  font-size: 30px;
+  color: var(--title-color);
+  opacity: 0.2;
+  position: absolute;
+  top: 0px;
+  left: -40px;
+  right: 0;
+}
+
+.dark .w3l-testimonials .message span {
+  color: #eee;
+}
+
+.w3l-testimonials .message p {
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--title-color);
+}
+
+.dark .w3l-testimonials .message p {
+  color: #eee;
+}
+
+.w3l-testimonials .name h4 {
+  font-size: 18px;
+  color: var(--primary);
+  font-weight: 400;
+}
+
+.w3l-testimonials .name p {
+  font-size: 13px;
+  color: var(--text-color);
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 40px;
+  height: 5px;
+  margin: 5px 5px;
+  background: #fff;
+  display: block;
+  border: none;
+  -webkit-backface-visibility: visible;
+  transition: opacity .2s ease;
+  border-radius: 0;
+  position: relative;
+}
+
+.dark .owl-theme .owl-dots .owl-dot span {
+  background: #131617;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: var(--primary);
+}
+
+.dark .owl-theme .owl-dots .owl-dot.active span,
+.dark .owl-theme .owl-dots .owl-dot:hover span {
+  background: var(--primary);
+}
+
+@media (max-width: 667px) {
+  .w3l-testimonials .img-circle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .w3l-testimonials .message {
+    text-align: center;
+  }
+
+  .w3l-testimonials .message span {
+    left: 0px;
+  }
+
+  .w3l-testimonials .slider-info {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
+  .w3l-testimonials .message {
+    text-align: center;
+  }
 }
