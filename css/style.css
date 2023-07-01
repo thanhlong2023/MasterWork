@@ -14,6 +14,11 @@ a {
   text-decoration: none;
 }
 
+span,
+li {
+  text-decoration: none;
+}
+
 html,
 body {
   font-family: 'Nunito Sans', sans-serif;
@@ -430,6 +435,8 @@ a.search-search span.fa:hover {
   .dark .navbar-expand-lg .navbar-nav .dropdown-menu:before {
     background-color: #131617;
     border: 1px solid #333;
+    border-right: 1px solid #131617;
+    border-bottom: 1px solid #131617;
   }
 }
 
@@ -477,6 +484,7 @@ a.search-search span.fa:hover {
 
 #switchButton {
   background-color: white;
+  transition: all 0.4s ease 0s;
 
 }
 
@@ -495,6 +503,7 @@ a.search-search span.fa:hover {
 
 .dark #switchButton {
   background-color: #131617;
+  transition: all 0.4s ease 0s;
 
 }
 
@@ -940,6 +949,14 @@ What People Say */
   background: var(--primary);
 }
 
+@media (max-width: 767.98px) {
+  .accordion .card-header h2 {
+    border: 1px solid transparent;
+    border-top: 0px solid #c1c1c1;
+    margin: 0px;
+  }
+}
+
 @media (max-width: 667px) {
   .w3l-testimonials .img-circle {
     margin-left: auto;
@@ -962,4 +979,46 @@ What People Say */
   .w3l-testimonials .message {
     text-align: center;
   }
+
+  .text-left:not(.collapsed) {
+    border-bottom: 3px #DC4F72 solid;
+    background-color: transparent !important;
+
+    text-decoration: none;
+  }
+
+
+  .text-left:not(.collapsed) span {
+    color: #DC4F72 !important;
+  }
+
+}
+
+/* back to top  */
+.backToTop {
+  width: 50px;
+  height: 45px;
+  background: #f55f8d;
+  border-radius: 3px;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  color: white;
+  transition: 0.3s ease;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 99;
+}
+
+.backToTop:hover {
+  opacity: 1;
+  color: white;
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 0.7;
 }
