@@ -340,6 +340,23 @@ a.search-search span.fa:hover {
   color: var(--primary);
 }
 
+.content {
+  background: linear-gradient(to right, var(--bg-color), rgba(255, 255, 255, 0.92)),
+  url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/banner.jpg);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background-repeat: no-repeat,
+  no-repeat,
+  no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  padding-top: 5rem;
+}
+
 /* reponsive header  */
 @media only screen and (max-width: 1440px) {
   .navbar-expand-lg .navbar-nav .nav-item {
