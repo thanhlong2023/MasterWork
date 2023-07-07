@@ -799,7 +799,7 @@ img.img-curve:hover {
 
   .accordion .card-header h2 {
     border: 1px solid #c1c1c1;
-    border-top: 0px solid #c1c1c1;
+    border-bottom: 0px solid #c1c1c1;
     margin: 0px;
 
   }
@@ -988,7 +988,7 @@ What People Say */
   .text-left:not(.collapsed) {
     border-bottom: 3px #DC4F72 solid;
 
-    
+
 
 
     text-decoration: none;
