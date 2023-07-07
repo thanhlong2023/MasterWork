@@ -949,7 +949,7 @@ What People Say */
   background: #fff;
   display: block;
   border: none;
-  -webkit-backface-visibility: visible;
+
   transition: opacity .2s ease;
   border-radius: 0;
   position: relative;
