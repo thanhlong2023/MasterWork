@@ -844,6 +844,15 @@ img.img-curve:hover {
     box-shadow: none;
   }
 
+  .text-left:not(.collapsed) span {
+    color: #DC4F72 !important;
+  }
+
+  .text-left:not(.collapsed) {
+    border-bottom: 3px #DC4F72 solid;
+    text-decoration: none;
+  }
+
 }
 
 /* OUR CLIENTS TESTIMONIALS
@@ -984,21 +993,6 @@ What People Say */
   .w3l-testimonials .message {
     text-align: center;
   }
-
-  .text-left:not(.collapsed) {
-    border-bottom: 3px #DC4F72 solid;
-
-
-
-
-    text-decoration: none;
-  }
-
-
-  .text-left:not(.collapsed) span {
-    color: #DC4F72 !important;
-  }
-
 }
 
 /* back to top  */
