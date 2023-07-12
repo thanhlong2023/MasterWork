@@ -125,6 +125,11 @@ select {
   border-color: #f8f9fa;
 }
 
+.btn-outline-primary.focus,
+.btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 79, 114, 0.5);
+}
+
 /* header  */
 header.main-header {
   background-color: var(--bg-color);
