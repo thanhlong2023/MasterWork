@@ -532,6 +532,12 @@ a.search-search span.fa:hover {
   border: 1px solid var(--border-color-light);
 }
 
+/* We Execute Our Ideas From Start to Finish */
+
+.dark .content__Start {
+  background: linear-gradient(to left, var(--bg-color), rgba(17, 3, 3, 0.92)), url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/banner.jpg);
+  color: white;
+}
 
 
 /* test  */
@@ -654,6 +660,26 @@ a.search-search span.fa:hover {
 .dark .w3l-index2 .s-block p {
   color: #b7b7b7;
 }
+
+/* ABOUT OUR COMPANY */
+.dark .HPAbout{
+  color: white;
+}
+
+.dark .w3l-stats .stats_info {
+  background-color: black;
+  color: white;
+}
+
+/* QUESTIONS AND ANSWERS */
+
+.dark .HomePageQAA .card  {
+  background-color: #131617;
+  color: white;
+  
+}
+
+
 
 /* đè code boostrap  */
 a:hover {
@@ -1039,9 +1065,19 @@ What People Say */
 }
 
 
+/* community */
+.dark .iij{
+  color: white;
+}
+.dark .w3l-footer .end-column{
+  color: #fff;
+  background-color: #131617;
+}
+
+
 /* Footer */
 .w3l-footer .end-column {
-  background-color: var(--bg-color);
+  background-color: #fff;
   padding: 2em;
   border-radius: var(--card-curve);
   box-shadow: var(--card-box-shadow);
@@ -1059,6 +1095,28 @@ What People Say */
 }
 .w3l-footer a{
   color: #656f7b;
+}
+
+.w3l-footer .subscribe button {
+  text-align: center;
+  background: var(--primary);
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  cursor: pointer;
+  width: 20%;
+  color: #fff;
+  border-radius: var(--card-curve);
+}
+
+.dark .w3l-footer{
+  background-color: #191c1d;
+}
+
+.CopyRights{
+  color: #b7b7b7;
 }
 
 @media (max-width: 767.98px) {
