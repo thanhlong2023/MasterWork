@@ -672,9 +672,6 @@ a.search-search span.fa:hover {
 }
 
 /* QUESTIONS AND ANSWERS */
-.faq-page .card-header{
-  background-color: white;
-}
 
 .dark .HomePageQAA .card  {
   background-color: #131617;
@@ -683,7 +680,7 @@ a.search-search span.fa:hover {
 }
 
 .dark .faq-page .card-header{
-  background-color: black;
+  background-color: white;
   border-radius: 7px;
   margin: 10px;
 }
