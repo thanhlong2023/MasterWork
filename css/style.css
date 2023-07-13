@@ -672,6 +672,9 @@ a.search-search span.fa:hover {
 }
 
 /* QUESTIONS AND ANSWERS */
+.faq-page .card-header{
+  background-color: white;
+}
 
 .dark .HomePageQAA .card  {
   background-color: #131617;
@@ -679,6 +682,11 @@ a.search-search span.fa:hover {
   
 }
 
+.dark .faq-page .card-header{
+  background-color: black;
+  border-radius: 7px;
+  margin: 10px;
+}
 
 
 /* đè code boostrap  */
@@ -729,6 +737,12 @@ a:hover {
   font-size: 16px;
   color: #eee;
   line-height: 24.5px;
+}
+
+/* QUESTIONS AND ANSWERS */
+.dark .faq-page{
+  color: #404040;
+  border-color: #c1c1c1;
 }
 
 /* featured cases  */
@@ -1150,6 +1164,15 @@ What People Say */
   .w3l-testimonials .message {
     text-align: center;
   }
+}
+
+.social{
+  display: flex;
+  
+}
+
+.w3l-footer .below-section, .w3l-footer .para-content-footer {
+  border-top: 1px solid var(--border-color);
 }
 
 /* back to top  */
