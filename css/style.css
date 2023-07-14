@@ -144,6 +144,16 @@ select {
   box-shadow: 0 0 0 0.2rem rgba(220, 79, 114, 0.5);
 }
 
+.btn-link.focus,
+.btn-link:focus {
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
 /* header  */
 header.main-header {
   background-color: var(--bg-color);
