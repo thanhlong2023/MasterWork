@@ -69,7 +69,184 @@ body {
   --transformY: translateY(-0.5rem);
 }
 
+/* Phùng hoàng thịnh  */
+.HPAbout a {
+  color: white;
+  background-color: #dc4f72;
+  border-color: #dc4f72;
+}
 
+.btn-primary:hover {
+  color: white;
+  background-color: #dc3545;
+  border-color: #dc4f72;
+}
+
+.content {
+  background: linear-gradient(to right, var(--bg-color), rgba(255, 255, 255, 0.92)),
+    url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/banner.jpg);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background-repeat: no-repeat,
+    no-repeat,
+    no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.w3l-stats .stats_info h4 {
+  font-size: 16px;
+  line-height: 24.5px;
+  text-transform: capitalize;
+  color: var(--title-color);
+  font-weight: 700;
+}
+
+.w3l-stats p.counter {
+  font-size: 50px;
+  line-height: 1;
+  color: var(--primary);
+  margin-bottom: 0;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.w3l-stats .stats_info {
+  background-color: var(--bg-color);
+  padding: 2rem;
+  border-radius: var(--card-curve);
+  box-shadow: var(--card-box-shadow);
+  transition: 0.3s ease;
+  border: 1px solid var(--border-color-light);
+}
+
+/* We Execute Our Ideas From Start to Finish */
+
+.dark .content__Start {
+  background: linear-gradient(to left, var(--bg-color), rgba(17, 3, 3, 0.92)), url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/banner.jpg);
+  color: white;
+}
+
+.dark .w3l-stats .stats_info {
+  background-color: black;
+  color: white;
+}
+
+/* ABOUT OUR COMPANY */
+.dark .HPAbout {
+  color: white;
+}
+
+/* QUESTIONS AND ANSWERS */
+
+.dark .HomePageQAA .card {
+  background-color: #131617;
+  color: white;
+
+}
+
+.dark .faq-page .card-header {
+  background-color: white;
+  border-radius: 7px;
+  margin: 10px;
+}
+
+/* QUESTIONS AND ANSWERS */
+.dark .faq-page {
+  color: #404040;
+  border-color: #c1c1c1;
+}
+
+/* Ready to build your own brand community? */
+.HomePageCTA .btn-primary {
+  border-color: #dc4f72;
+  color: white;
+  background-color: #dc4f72;
+}
+
+.HomePageCTA .btn-primary:hover {
+  color: white;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+
+/* community */
+.dark .iij {
+  color: white;
+}
+
+.dark .w3l-footer .end-column {
+  color: #fff;
+  background-color: #131617;
+}
+
+
+/* Footer */
+.w3l-footer .end-column {
+  background-color: #fff;
+  padding: 2em;
+  border-radius: var(--card-curve);
+  box-shadow: var(--card-box-shadow);
+}
+
+.w3l-footer .subscribe input[type="email"] {
+  background: var(--light-bg-color);
+  border: none;
+  padding: 12px 20px;
+  font-size: 12px;
+  outline: none;
+  width: 78%;
+  color: var(--title-color);
+  font-weight: 600;
+  border-radius: var(--card-curve);
+}
+
+.w3l-footer a {
+  color: #656f7b;
+}
+
+.w3l-footer .subscribe button {
+  text-align: center;
+  background: var(--primary);
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  cursor: pointer;
+  width: 20%;
+  color: #fff;
+  border-radius: var(--card-curve);
+}
+
+.dark .w3l-footer {
+  background-color: #191c1d;
+}
+
+.CopyRights {
+  color: #b7b7b7;
+}
+
+.social {
+  display: flex;
+
+}
+
+.w3l-footer .below-section,
+.w3l-footer .para-content-footer {
+  border-top: 1px solid var(--border-color);
+}
+
+
+
+/* Cao Thành Long  */
 
 /* button  */
 
@@ -120,17 +297,6 @@ select {
   color: #fff;
   background-color: #dc4f72;
   border-color: #dc4f72;
-}
-
-.HPAbout a{
-  color: white;
-  background-color: #dc4f72;
-  border-color: #dc4f72;
-}
-.btn-primary:hover {
-  color: white;
-  background-color: #dc3545 ;
-  border-color: #dc4f72 ;
 }
 
 .theme-button {
@@ -383,24 +549,6 @@ a.search-search span.fa:hover {
   color: var(--primary);
 }
 
-.content {
-  background: linear-gradient(to right, var(--bg-color), rgba(255, 255, 255, 0.92)),
-  url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/banner.jpg);
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  background-repeat: no-repeat,
-  no-repeat,
-  no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  display: grid;
-  align-items: center;
-  padding-top: 5rem;
-}
-
-
 /* reponsive header  */
 @media only screen and (max-width: 1440px) {
   .navbar-expand-lg .navbar-nav .nav-item {
@@ -534,39 +682,6 @@ a.search-search span.fa:hover {
   }
 }
 
-.w3l-stats .stats_info h4 {
-  font-size: 16px;
-  line-height: 24.5px;
-  text-transform: capitalize;
-  color: var(--title-color);
-  font-weight: 700;
-}
-
-.w3l-stats p.counter {
-  font-size: 50px;
-  line-height: 1;
-  color: var(--primary);
-  margin-bottom: 0;
-  font-weight: 700;
-  margin-bottom: 15px;
-  margin-top: 10px;
-}
-
-.w3l-stats .stats_info {
-  background-color: var(--bg-color);
-  padding: 2rem;
-  border-radius: var(--card-curve);
-  box-shadow: var(--card-box-shadow);
-  transition: 0.3s ease;
-  border: 1px solid var(--border-color-light);
-}
-
-/* We Execute Our Ideas From Start to Finish */
-
-.dark .content__Start {
-  background: linear-gradient(to left, var(--bg-color), rgba(17, 3, 3, 0.92)), url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/banner.jpg);
-  color: white;
-}
 
 
 /* test  */
@@ -690,31 +805,6 @@ a.search-search span.fa:hover {
   color: #b7b7b7;
 }
 
-/* ABOUT OUR COMPANY */
-.dark .HPAbout{
-  color: white;
-}
-
-.dark .w3l-stats .stats_info {
-  background-color: black;
-  color: white;
-}
-
-/* QUESTIONS AND ANSWERS */
-
-.dark .HomePageQAA .card  {
-  background-color: #131617;
-  color: white;
-  
-}
-
-.dark .faq-page .card-header{
-  background-color: white;
-  border-radius: 7px;
-  margin: 10px;
-}
-
-
 /* đè code boostrap  */
 a:hover {
   text-decoration: none;
@@ -763,12 +853,6 @@ a:hover {
   font-size: 16px;
   color: #eee;
   line-height: 24.5px;
-}
-
-/* QUESTIONS AND ANSWERS */
-.dark .faq-page{
-  color: #404040;
-  border-color: #c1c1c1;
 }
 
 /* featured cases  */
@@ -1078,87 +1162,18 @@ What People Say */
 }
 
 .dark .owl-theme .owl-dots .owl-dot span {
-  background: #131617;  
+  background: #131617;
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: var(--primary); 
+  background: var(--primary);
 }
 
 .dark .owl-theme .owl-dots .owl-dot.active span,
 .dark .owl-theme .owl-dots .owl-dot:hover span {
-  background: var(--primary); 
-}
-
-/* Ready to build your own brand community? */
-.HomePageCTA .btn-primary{
-  border-color: #dc4f72;
-  color: white;
-  background-color: #dc4f72;
-}
-
-.HomePageCTA .btn-primary:hover{
-  color: white;
-  background-color: #dc3545;
-  border-color: #dc3545;
-}
-
-
-/* community */
-.dark .iij{
-  color: white;
-}
-.dark .w3l-footer .end-column{
-  color: #fff;
-  background-color: #131617;
-}
-
-
-/* Footer */
-.w3l-footer .end-column {
-  background-color: #fff;
-  padding: 2em;
-  border-radius: var(--card-curve);
-  box-shadow: var(--card-box-shadow);
-}
-.w3l-footer .subscribe input[type="email"] {
-  background: var(--light-bg-color);
-  border: none;
-  padding: 12px 20px;
-  font-size: 12px;
-  outline: none;
-  width: 78%;
-  color: var(--title-color);
-  font-weight: 600;
-  border-radius: var(--card-curve);
-}
-.w3l-footer a{
-  color: #656f7b;
-}
-
-.w3l-footer .subscribe button {
-  text-align: center;
   background: var(--primary);
-  border: none;
-  outline: none;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 12px 20px;
-  cursor: pointer;
-  width: 20%;
-  color: #fff;
-  border-radius: var(--card-curve);
 }
-
-.dark .w3l-footer{
-  background-color: #191c1d;
-}
-
-.CopyRights{
-  color: #b7b7b7;
-}
-
 
 
 
@@ -1186,14 +1201,6 @@ What People Say */
   }
 }
 
-.social{
-  display: flex;
-  
-}
-
-.w3l-footer .below-section, .w3l-footer .para-content-footer {
-  border-top: 1px solid var(--border-color);
-}
 
 /* back to top  */
 .backToTop {
